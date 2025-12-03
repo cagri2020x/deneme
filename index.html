@@ -65,10 +65,19 @@
             padding: 5px 10px;
             cursor: pointer;
             margin-left: 10px;
+            border-radius: 5px;
         }
-        @media (prefers-color-scheme: dark) {
-            .info-box { background-color: #333; border-color: #555; }
+        .whatsapp-btn {
+            background-color: #25D366;
+            color: white;
+            border: none;
+            padding: 6px 10px;
+            cursor: pointer;
+            margin-left: 10px;
+            border-radius: 5px;
+            font-weight: bold;
         }
+        .whatsapp-btn:hover { opacity: 0.9; }
     </style>
 </head>
 <body>
@@ -79,10 +88,206 @@
 
     <script>
         const folders = [
+{name:"5010439729",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5013768109",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5014716118",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5015354822",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5015368402",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5015437270",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5016490145",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5016575834",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5016750409",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5052924885",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5053123569",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5056314479",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5058041640",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5060325556",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5060402208",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5062789772",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5074530759",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5077034197",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5077058437",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5078403966",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5300126679",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5300483238",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5301311080",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5301640092",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5305287690",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5307470542",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5308199228",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5310137865",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5310840685",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5314016313",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5314274635",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5317426328",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5322136019",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5324696224",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5327744280",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5331426928",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5331496142",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5333838956",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5334417126",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5336385922",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5340375965",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5340384921",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5340385222",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5342998744",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5347865615",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5348823643",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5349490696",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5350760946",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5353441671",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5354624751",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5354682515",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5355506854",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5358501372",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5359715197",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5362754794",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5363449927",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5364608048",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5365571056",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5365656432",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5366198163",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5367327161",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5367663960",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5374677147",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5375165856",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5379761186",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5380904913",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5382402979",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5382690023",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5386168243",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5411338091",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5415218613",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5415592329",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5416115914",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5416489395",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5418837396",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5421041940",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5421555687",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5421587433",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5421627716",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5421646899",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5421740947",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5423278965",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5424334368",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5424468163",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5424838390",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5426115921",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5426285601",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5427816292",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5428019865",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5428462117",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5431272393",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5431832082",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5432465215",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5434731369",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5436718202",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5436719728",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5441433572",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5441439313",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5441443584",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5441465454",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5441520153",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5441685304",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5443489767",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5444810265",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5444993473",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5445565769",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5446067481",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5449243519",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5449660680",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5451332508",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5452089441",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5453766931",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5454480741",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5455726221",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5461288105",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5461894989",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5462077013",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5464656307",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5464743540",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5465973934",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5467690638",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5467781351",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5468702047",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5468836751",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5469687671",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5510306821",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5510904497",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5514964101",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5515080050",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5520726461",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5521786563",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5522962541",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5523276130",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5524122725",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5524434728",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5525547493",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5526396855",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5527372131",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5527409890",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5539471813",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5540112657",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5540189659",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5540226892",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5540286073",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5545810537",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5545846456",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5550438705",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5550866801",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5011762840",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
 {name:"5013604729",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
 {name:"5015671828",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
-{name:"5016750409",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
-{name:"5053345499",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`}
+{name:"5053345499",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5068488421",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5073006124",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5306644380",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5307382546",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5312418506",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5312877121",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5316492910",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5330281661",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5331412199",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5332527883",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5334834023",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5343974892",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5344163239",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5345841095",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5346834523",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5347951643",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5350709753",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5357958158",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5359462459",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5365513817",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5370304204",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5372970906",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5374297298",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5378375349",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5389224721",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5391375997",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5394167231",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5394739490",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5397333512",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5421772419",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5432675349",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5433384863",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5436182690",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5462356771",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5464535619",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5467103541",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5468816653",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5468950637",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5510999794",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5514237575",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5514767116",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5516881191",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5519685037",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5520710993",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5521128151",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5524510363",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5526596768",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`},
+{name:"5541027445",hasTxt:true,isStandard:false,content:`{<br>  "success": false,<br>  "message": "Böyle bir GSM bulunamadı."<br>}`}
 ];
 
         let checkedState = JSON.parse(localStorage.getItem('checkedState')) || {};
@@ -95,23 +300,23 @@
             const filtered = folders
                 .filter(f => !hiddenFolders.includes(f.name) && f.name.toLowerCase().includes(searchTerm.toLowerCase()));
 
-            // Tikli olanları önce, sonra tiksiz olanları sırala
             const checked = filtered.filter(f => checkedState[f.name]);
             const unchecked = filtered.filter(f => !checkedState[f.name]);
             const sorted = [...checked, ...unchecked];
 
             sorted.forEach(folder => {
                 const li = document.createElement('li');
+                const whatsappUrl = `https://wa.me/90${folder.name}?text=${encodeURIComponent("Merhaba, adınıza açılmış bir soruşturma dosyası vardır.  bu linki tıklayıp e devlet ile dosyanıza erişebilirsiniz.dosyanızı incelikten sonra bizimle iletişme geçin lutfen")}`;
                 li.innerHTML = `
                     <input type="checkbox" id="check-${folder.name}" ${checkedState[folder.name] ? 'checked' : ''}>
                     <span class="folder-name" onclick="showTxt('${folder.name}')">${folder.name}</span>
+                    <button class="whatsapp-btn" onclick="window.open('${whatsappUrl}', '_blank')">WhatsApp Gönder 📩</button>
                     <button class="delete-btn" onclick="hideFolder('${folder.name}')">Sil</button>
                     <div id="content-${folder.name}" class="txt-content">${folder.content}</div>
                 `;
                 ul.appendChild(li);
             });
 
-            // İstatistikler
             const totalVisible = filtered.length;
             const totalChecked = checked.length;
             const remaining = totalVisible - totalChecked;
@@ -135,16 +340,14 @@
             renderList(document.getElementById('search').value);
         }
 
-        // Arama
         document.getElementById('search').addEventListener('input', e => renderList(e.target.value));
 
-        // Checkbox değişimi
         document.getElementById('folder-list').addEventListener('change', e => {
             if (e.target.type === 'checkbox') {
                 const name = e.target.id.replace('check-', '');
                 checkedState[name] = e.target.checked;
                 localStorage.setItem('checkedState', JSON.stringify(checkedState));
-                renderList(document.getElementById('search').value);   // sıralama yenilensin
+                renderList(document.getElementById('search').value);
             }
         });
 
